@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
@@ -53,7 +54,7 @@ const Nav = () => {
 
   return (  
     <motion.nav 
-      className="bg-transparent w-full px-4 py-3 font-kumah"
+      className="bg-transparent w-[90%] mx-auto px-4 py-3 font-kumah"
       initial="hidden"
       animate="visible"
       variants={container}

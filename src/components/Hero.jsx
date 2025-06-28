@@ -112,7 +112,7 @@ const Hero = () => {
                                     <img 
                                         src={company.image} 
                                         alt={company.alt} 
-                                        className='h-8 sm:h-10 md:h-12 w-auto object-contain'
+                                        className='h-8 sm:h-10 md:h-14 w-auto object-contain'
                                         loading="lazy"
                                     />
                                 </motion.div>

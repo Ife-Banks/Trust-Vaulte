@@ -4,3 +4,11 @@
 @theme{
   --font-kumah:"Kumbh Sans", sans-serif;
 }
+
+.footerlink{
+  @apply text-[#838FAE] font-kumah font-medium;
+}
+
+.footerheader{
+  @apply text-[#6388DD] font-kumah text-lg font-medium;
+}
